@@ -2,13 +2,21 @@
   "name": "secret_hitler_bot",
   "version": "1.0.0",
   "description": "Bot that runs games of Secret Hitler through GroupMe.",
-  "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/chrisjuchem/SecretHitlerBot"
+  },
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
   },
   "author": "Chris Juchem & John Koster",
   "license": "MIT",
   "dependencies": {
-    "body": "^5.1.0"
+    "body": "^5.1.0",
+    "dotenv": "^6.2.0"
   }
 }
