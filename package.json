@@ -1,0 +1,14 @@
+{
+  "name": "secret_hitler_bot",
+  "version": "1.0.0",
+  "description": "Bot that runs games of Secret Hitler through GroupMe.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Chris Juchem & John Koster",
+  "license": "MIT",
+  "dependencies": {
+    "body": "^5.1.0"
+  }
+}
